@@ -1,0 +1,12 @@
+<div class="row mt-3">
+    <div class="col">
+        <input class="form-control pr-3" type="text" #name placeholder="Pet name"/>
+    </div>
+    <div class="col">
+        <input class="form-control" type="text" #breed placeholder="Pet breed"/>
+    </div>
+</div>
+
+<div class="row text-center mt-3">
+    <button class="btn btn-primary" (click)="addPet(name.value, breed.value)">Add new pet</button>
+</div>

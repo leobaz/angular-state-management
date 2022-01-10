@@ -1,0 +1,5 @@
+<ul class="mt-5">
+    <li *ngFor="let airport of airports$ | async">
+      {{airport.code}} - {{airport.name}}
+    </li>
+</ul>
